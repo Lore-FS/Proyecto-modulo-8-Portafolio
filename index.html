@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi Portafolio | Loreto Fritz</title>
+
+    <!-- fuente de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- CDN Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-xl navbar-dark fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#inicio">Mi Portafolio</a>
+
+            <!-- Botón hamburguesa menú -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false" aria-label="Abrir menú de navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menú -->
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#formacion">Formación</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiencia">Experiencia</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#caso-estudio">Caso de estudio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+
+        <!-- INICIO / HERO -->
+        <section id="inicio" class="hero d-flex align-items-center min-vh-100">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-7">
+
+                        <p class="hero-saludo mb-2">Hola, soy</p>
+
+                        <!-- foto visible sólo en pantallas inferiores a escritorio -->
+                        <div class="hero-foto-movil d-lg-none">
+                            <img src="./assets/img/foto.png" alt="" class="hero-foto">
+                        </div>
+
+                        <h1 class="display-3 fw-bold">Loreto Fritz Solís</h1>
+
+                        <h2 class="hero-profesion mb-4">Desarrolladora Front End Trainee</h2>
+
+                        <p class="hero-texto">
+                            Me apasiona transformar ideas en interfaces web funcionales y atractivas. Durante mi
+                            formación, he desarrollado proyectos que me han permitido avanzar desde los fundamentos del
+                            desarrollo Front End, hasta la creación de aplicaciones con Vue.
+                        </p>
+
+                        <div class="d-flex flex-wrap gap-3 mt-4">
+
+                            <a href="#proyectos" class="btn btn-principal">Ver mis proyectos</a>
+
+                            <a href="https://github.com/Lore-FS" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-secundario">
+                                <i class="bi bi-github"></i>
+                                GitHub
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <!-- elemento visual -->
+                    <div class="col-lg-5 d-none d-lg-flex justify-content-center">
+                        <div class="hero-card">
+                            <!-- con ilustracion -->
+                            <!-- <img src="./assets/img/imagen-hero.png" alt="Ilustración Desarrollador Front End Trainee" class="hero-ilustracion"> -->
+
+                            <!-- con foto -->
+                            <img src="./assets/img/foto.png" alt="Foto de Loreto Fritz" class="hero-foto">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SOBRE MÍ -->
+        <section id="sobre-mi" class="seccion">
+            <div class="container">
+
+                <h2 class="titulo-seccion text-center">Sobre mí</h2>
+
+                <div class="row justify-content-center mt-4">
+                    <div class="col-lg-9">
+
+                        <p class="texto-seccion">
+                            Estudié Ingeniería Comercial en la Universidad Técnica Federico Santa María, y actualmente
+                            me encuentro incursionando en una formación como desarrolladora Front End Trainee,
+                            fortaleciendo mis conocimientos a
+                            través del desarrollo de proyectos prácticos.
+                        </p>
+
+                        <p class="texto-seccion">
+                            A lo largo de mi formación he trabajado con tecnologías como HTML, CSS, Bootstrap,
+                            JavaScript y Vue.js, avanzando desde la creación de interfaces web hasta el desarrollo de
+                            aplicaciones SPA, consumo de APIs, gestión de estado y pruebas.
+                        </p>
+
+                        <p class="texto-seccion">
+                            Mi objetivo es continuar desarrollando mis habilidades técnicas y adquirir experiencia
+                            profesional participando en proyectos que me permitan seguir aprendiendo y aportando
+                            soluciones desde el desarrollo Front End.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FORMACION Y CERTIFICACIONES -->
+        <section id="formacion" class="seccion seccion-alternativa">
+            <div class="container">
+
+                <h2 class="titulo-seccion text-center">Formación y Certificaciones</h2>
+
+                <p class="text-center subtitulo-seccion">Formación académica y capacitaciones que complementan mi
+                    desarrollo profesional y tecnológico.</p>
+
+                <div class="row g-4 mt-4">
+
+                    <!-- INGENIERIA COMERCIAL -->
+                    <div class="col-md-6">
+
+                        <article class="formacion-card h-100">
+                            <div class="formacion-icono">
+                                <i class="bi bi-mortarboard"></i>
+                            </div>
+
+                            <div class="formacion-contenido">
+                                <h3>Ingeniería Comercial</h3>
+
+                                <p class="formacion-institucion">Universidad Técnica Federico Santa María</p>
+
+                                <p class="formacion-fecha">2010 - 2015</p>
+
+                                <p>
+                                    Formación profesional universitaria que fortaleció competencia de análisis,
+                                    gestión, planificación y resolución de problemas.
+                                </p>
+                            </div>
+                        </article>
+
+                    </div>
+
+                    <!-- EXCEL -->
+                    <div class="col-md-6">
+
+                        <article class="formacion-card h-100">
+                            <div class="formacion-icono">
+                                <i class="bi bi-code-square"></i>
+                            </div>
+
+                            <div class="formacion-contenido">
+                                <h3>Entrenamiento Smart Excel</h3>
+
+                                <p class="formacion-institucion">SmartPro Academy</p>
+
+                                <p class="formacion-fecha">Enero 2025 - Julio 2025</p>
+
+                                <p>
+                                    Entrenamiento para aprender Excel de nivel básico a avanzado con clases en formato
+                                    vídeo, prácticas y clases en vivo con casos de estudio. Total de 60 horas de
+                                    formación intensiva.
+                                </p>
+                            </div>
+                        </article>
+
+                    </div>
+
+
+                    <!-- BOOTCAMP IA-->
+                    <div class="col-md-6">
+
+                        <article class="formacion-card h-100">
+                            <div class="formacion-icono">
+                                <i class="bi bi-stars"></i>
+                            </div>
+
+                            <div class="formacion-contenido">
+                                <h3>Bootcamp de Inteligencia Artificial</h3>
+
+                                <p class="formacion-institucion">Excel y Finanzas</p>
+
+                                <p class="formacion-fecha">Julio 2026</p>
+
+                                <p>
+                                    Formación complementaria orientada al uso y comprensión de herramientas de
+                                    inteligencia Artificial, particularmente Copilot, ChatGPT y Claude, aplicadas a trabajo en Excel, Power BI y a aumentar la productividad laboral en general.
+                                </p>
+                            </div>
+                        </article>
+
+                    </div>
+
+                    <!-- FRONT END -->
+                    <div class="col-md-6">
+
+                        <article class="formacion-card h-100">
+                            <div class="formacion-icono">
+                                <i class="bi bi-cpu"></i>
+                            </div>
+
+                            <div class="formacion-contenido">
+                                <h3>Desarrollo de Aplicaciones Front End Trainee</h3>
+
+                                <p class="formacion-institucion">Talento Digital para Chile - SENCE</p>
+
+                                <p class="formacion-fecha">Mayo 2026 - En curso</p>
+
+                                <p>
+                                    Formación orientada al desarrollo Front End, inlcuyendo HTML, CSS, JavaScript, Vue,
+                                    consumo de APIs, gestión de estado y testing.
+                                </p>
+                            </div>
+                        </article>
+
+                    </div>
+
+                </div>
+
+                <!-- IDIOMAS -->
+                <div class="row justify-content-center mt-4">
+                    <div class="col-md-6">
+
+                        <article class="formacion-card h-100">
+                            <div class="formacion-icono">
+                                <i class="bi bi-translate"></i>
+                            </div>
+
+                            <div class="formacion-contenido">
+                                <h3>Certificación Inglés</h3>
+
+                                <p class="formacion-institucion">TOEIC Listening & Reading</p>
+
+                                <p class="formacion-fecha">2014</p>
+
+                                <p>
+                                    Nivel 3 (Escala 0 - 3+).
+                                    <br><br>
+                                    Certificación que evalúa habilidades de comprensión lectora y auditiva en inglés
+                                    para el
+                                    lugar de trabajo o contexto acaddémico.
+                                </p>
+
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- EXPERIENCIA PROFESIONAL -->
+        <section id="experiencia" class="seccion">
+
+            <div class="container">
+
+                <h2 class="titulo-seccion text-center">
+                    Experiencia profesional
+                </h2>
+
+                <p class="text-center subtitulo-seccion">
+                    Experiencias que han contribuido al desarrollo de mis habilidades profesionales, de gestión y
+                    organización.
+                </p>
+
+                <div class="row g-4 mt-3">
+
+                    <!-- PROYECTO ANID -->
+                    <div class="col-lg-4">
+
+                        <article class="experiencia-card h-100">
+
+                            <div class="experiencia-icono">
+                                <i class="bi bi-kanban"></i>
+                            </div>
+
+                            <h3>Proyecto ANID Desafíos Públicos</h3>
+
+                            <p class="experiencia-cargo">
+                                Personal de Apoyo - Universidad de Talca
+                            </p>
+
+                            <p class="experiencia-fecha">
+                                Marzo 2024 - Enero 2025
+                            </p>
+
+                            <p class="experiencia-descripcion">
+                                Participación como personal de apoyo en un proyecto
+                                ANID Desafíos Públicos, colaborando en actividades
+                                asociadas al modelo de negocios y propiedad intelectual del proyecto.
+                            </p>
+
+                            <div class="experiencia-habilidades">
+                                <span>Trabajo colaborativo</span>
+                                <span>Organización</span>
+                                <span>Responsabilidad</span>
+                                <span>Gestión de información</span>
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                    <!-- ASESORÍAS FRITZ -->
+                    <div class="col-lg-4">
+
+                        <article class="experiencia-card h-100">
+
+                            <div class="experiencia-icono">
+                                <i class="bi bi-briefcase"></i>
+                            </div>
+
+                            <h3>Asesorías Fritz Limitada</h3>
+
+                            <p class="experiencia-cargo">
+                                Socia y Representante Legal
+                            </p>
+
+                            <p class="experiencia-fecha">
+                                Julio 2023 - Actualidad
+                            </p>
+
+                            <p class="experiencia-descripcion">
+                                Desarrollo de consultorías y apoyo en procesos
+                                relacionados con acreditación de Postgrados de Educación Superior
+                                y servicios profesionales del área de ingeniería.
+                            </p>
+
+                            <div class="experiencia-habilidades">
+                                <span>Organización</span>
+                                <span>Análisis</span>
+                                <span>Autonomía</span>
+                                <span>Gestión de proyectos</span>
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                    <!-- AGROEXPLORA -->
+                    <div class="col-lg-4">
+
+                        <article class="experiencia-card h-100">
+
+                            <div class="experiencia-icono">
+                                <i class="bi bi-shop"></i>
+                            </div>
+
+                            <h3>Agroexplora SpA</h3>
+
+                            <p class="experiencia-cargo">
+                                Socia y Representante Legal
+                            </p>
+
+                            <p class="experiencia-fecha">
+                                Noviembre 2017 - 2021
+                            </p>
+
+                            <p class="experiencia-descripcion">
+                                Gestión de una PYME dedicada a la venta online de
+                                productos para jardín, hogar y mascotas.
+                            </p>
+
+                            <div class="experiencia-habilidades">
+                                <span>Gestión de negocio</span>
+                                <span>Comercio electrónico</span>
+                                <span>Organización</span>
+                                <span>Toma de decisiones</span>
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- HABILIDADES -->
+        <section id="habilidades" class="seccion seccion-alternativa">
+            <div class="container">
+
+                <h2 class="titulo-seccion text-center">Habilidades y tecnologías</h2>
+
+                <p class="text-center subtitulo-seccion">Tecnologías y herramientas aplicadas durante mi formación.</p>
+
+                <div class="row g-4 mt-3">
+
+                    <!-- Front End -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="habilidad-card h-100">
+
+                            <h3><i class="bi bi-code-slash habilidad-icono"></i>Front End</h3>
+
+                            <div class="tecnologias">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>Bootstrap</span>
+                                <span>JavaScript ES6+</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Vue -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="habilidad-card h-100">
+
+                            <h3><i class="bi bi-window habilidad-icono"></i>Vue y SPA</h3>
+
+                            <div class="tecnologias">
+                                <span>Vue 3</span>
+                                <span>Vue CLI</span>
+                                <span>Vue Router</span>
+                                <span>Vuex</span>
+                                <span>Composition API</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Testing -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="habilidad-card h-100">
+
+                            <h3><i class="bi bi-check2-circle habilidad-icono"></i>Testing</h3>
+
+                            <div class="tecnologias">
+                                <span>Jest</span>
+                                <span>Vue Test Utils</span>
+                                <span>Cypress</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Herramientas -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="habilidad-card h-100">
+
+                            <h3><i class="bi bi-tools habilidad-icono"></i>Herramientas</h3>
+
+                            <div class="tecnologias">
+                                <span>Git</span>
+                                <span>GitHub</span>
+                                <span>Fetch API</span>
+                                <span>Axios</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Otros conceptos -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="habilidad-card h-100">
+
+                            <h3><i class="bi bi-diagram-3 habilidad-icono"></i>Conceptos</h3>
+
+                            <div class="tecnologias">
+                                <span>POO</span>
+                                <span>DOM</span>
+                                <span>Async / Await</span>
+                                <span>LocalStorage</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Habilidades blandas -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="habilidad-card h-100">
+
+                            <h3><i class="bi bi-emoji-smile habilidad-icono"></i>Soft Skills</h3>
+
+                            <div class="tecnologias">
+                                <span>Gestión del tiempo</span>
+                                <span>Aprendizaje continuo</span>
+                                <span>Resolución de problemas</span>
+                                <span>Capacidad de organización</span>
+                                <span>Pensamiento Analítico</span>
+                                <span>Autonomía</span>
+                                <span>Adaptabilidad</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- PROYECTOS -->
+        <section id="proyectos" class="seccion">
+            <div class="container">
+
+                <h2 class="titulo-seccion text-center">Mis proyectos</h2>
+
+                <p class="text-center subtitulo-seccion">Una selección de proyectos desarrollados durante mi formación
+                    Front End Trainee.</p>
+
+                <div class="row g-4 mt-3">
+
+                    <!-- ALKE WALLET -->
+                    <div class="col-md-6 col-xl-3">
+                        <article class="proyecto-card h-100">
+
+                            <div class="proyecto-imagen">
+                                <img src="./assets/img/alke-wallet.png" alt="Vista del proyecto Alke Wallet"
+                                    class="img-fluid">
+                            </div>
+
+                            <div class="proyecto-contenido">
+
+                                <h3>Alke Wallet</h3>
+
+                                <p class="proyecto-tipo">Billetera digital</p>
+
+                                <p class="proyecto-descripcion">
+                                    Aplicación web que permite realizar operaciones básicas de una billetera digital,
+                                    incluyendo autenticación, depósitos, transferencias y visualización de movimientos.
+                                    Incorpora validaciones para controlar los montos ingresados y evitar transferencias
+                                    superiores al saldo disponible.
+                                </p>
+
+                                <div class="tecnologias mb-4">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>Bootstrap</span>
+                                    <span>JavaScript</span>
+                                </div>
+
+                                <div class="proyecto-botones">
+
+                                    <a href="https://github.com/Lore-FS/Proyecto-M-dulo-2-Alke-Wallet" target="_blank"
+                                        rel="noopener noreferrer" class="btn btn-proyecto">
+                                        <i class="bi bi-github"></i>
+                                        Ver código
+                                    </a>
+
+                                    <a href="https://lore-fs.github.io/Proyecto-M-dulo-2-Alke-Wallet/" target="_blank"
+                                        rel="noopener noreferrer" class="btn btn-githubpage">
+                                        <i class="bi bi-globe"></i>
+                                        Ver proyecto
+                                    </a>
+
+                                    <a href="#caso-estudio" class="btn btn-caso">
+                                        <i class="bi bi-book"></i>
+                                        Caso de estudio
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </article>
+                    </div>
+
+
+                    <!-- TASKFLOW -->
+                    <div class="col-md-6 col-xl-3">
+                        <article class="proyecto-card h-100">
+
+                            <div class="proyecto-imagen">
+                                <img src="./assets/img/taskflow.png" alt="Vista del proyecto Gestor de Tareas TaskFlow"
+                                    class="img-fluid">
+                            </div>
+
+                            <div class="proyecto-contenido">
+
+                                <h3>TaskFlow</h3>
+
+                                <p class="proyecto-tipo">Gestor de tareas</p>
+
+                                <p class="proyecto-descripcion">
+                                    Aplicación web que permite crear, visualizar, modificar el estado y eliminar tareas.
+                                    Fue desarrollada aplicando programación orientada a objetos con JavaScript y utiliza
+                                    LocalStorage para mantener la información, además de comunicación con una API
+                                    externa mediante Fetch y programación asíncrona.
+                                </p>
+
+                                <div class="tecnologias mb-4">
+                                    <span>JavaScript ES6+</span>
+                                    <span>POO</span>
+                                    <span>Fetch API</span>
+                                    <span>LocalStorage</span>
+                                </div>
+
+                                <div class="proyecto-botones">
+
+                                    <a href="https://github.com/Lore-FS/Proyecto-modulo-5-Gestor-de-Tareas"
+                                        target="_blank" rel="noopener noreferrer" class="btn btn-proyecto">
+                                        <i class="bi bi-github"></i>
+                                        Ver código
+                                    </a>
+
+                                    <a href="https://lore-fs.github.io/Proyecto-modulo-5-Gestor-de-Tareas/"
+                                        target="_blank" rel="noopener noreferrer" class="btn btn-githubpage">
+                                        <i class="bi bi-globe"></i>
+                                        Ver proyecto
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </article>
+                    </div>
+
+
+                    <!-- BOOKLIST -->
+                    <div class="col-md-6 col-xl-3">
+                        <article class="proyecto-card h-100">
+
+                            <div class="proyecto-imagen">
+                                <img src="./assets/img/booklist.png" alt="Vista del proyecto BookList"
+                                    class="img-fluid">
+                            </div>
+
+                            <div class="proyecto-contenido">
+
+                                <h3>BookList</h3>
+
+                                <p class="proyecto-tipo">Aplicación SPA de libros</p>
+
+                                <p class="proyecto-descripcion">
+                                    Aplicación web desarrollada con Vue 3 que permite iniciar sesión o ingresar como
+                                    invitado, visualizar un listado dinámico de libros, realizar búsquedas y aplicar
+                                    filtros por autor y categoría. Incluye navegación mediante Vue Router, vistas de
+                                    detalle con rutas anidadas y manejo de rutas no encontradas mediante una vista de
+                                    error 404.
+                                </p>
+
+                                <div class="tecnologias mb-4">
+                                    <span>Vue 3</span>
+                                    <span>Vue Router</span>
+                                    <span>JavaScript</span>
+                                    <span>CSS</span>
+                                </div>
+
+                                <div class="proyecto-botones">
+
+                                    <a href="https://github.com/Lore-FS/Proyecto-modulo-6-BookList" target="_blank"
+                                        rel="noopener noreferrer" class="btn btn-proyecto">
+                                        <i class="bi bi-github"></i>
+                                        Ver código
+                                    </a>
+
+                                    <a href="https://lore-fs.github.io/Proyecto-modulo-6-BookList/" target="_blank"
+                                        rel="noopener noreferrer" class="btn btn-githubpage">
+                                        <i class="bi bi-globe"></i>
+                                        Ver proyecto
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </article>
+                    </div>
+
+
+                    <!-- VUE PRODUCTS SHOWCASE -->
+                    <div class="col-md-6 col-xl-3">
+                        <article class="proyecto-card h-100">
+
+                            <div class="proyecto-imagen">
+                                <img src="./assets/img/products-showcase.png"
+                                    alt="Vista del proyecto Vue Products Showcase" class="img-fluid">
+                            </div>
+
+                            <div class="proyecto-contenido">
+
+                                <h3>Vue Products Showcase</h3>
+
+                                <p class="proyecto-tipo">Catálogo de productos</p>
+
+                                <p class="proyecto-descripcion">
+                                    Aplicación SPA desarrollada con Vue3 que permite consultar un catálogo de productos obtenido desde una API
+                                    REST externa (Platzi Fake Store API), filtrar productos por categoría, visualizar su
+                                    detalle y administrar productos favoritos. Incorpora manejo de estados de carga y
+                                    error, navegación mediante Vue Router, gestión centralizada del estado con Vuex,
+                                    diseño responsive y temas claro y oscuro.
+                                </p>
+
+                                <div class="tecnologias mb-4">
+                                    <span>Vue 3</span>
+                                    <span>Vuex</span>
+                                    <span>Axios</span>
+                                    <span>Vuetify</span>
+                                    <span>Jest</span>
+                                    <span>Cypress</span>
+
+                                </div>
+
+                                <div class="proyecto-botones">
+
+                                    <a href="https://github.com/Lore-FS/Proyecto-modulo-7-catalogo-productos"
+                                        target="_blank" rel="noopener noreferrer" class="btn btn-proyecto">
+                                        <i class="bi bi-github"></i>
+                                        Ver código
+                                    </a>
+
+                                    <a href="https://github.com/Lore-FS/Proyecto-modulo-7-catalogo-productos"
+                                        target="_blank" rel="noopener noreferrer" class="btn btn-githubpage">
+                                        <i class="bi bi-globe"></i>
+                                        Ver proyecto
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CASO DE ESTUDIO -->
+        <section id="caso-estudio" class="seccion seccion-alternativa">
+            <div class="container">
+
+                <div class="text-center">
+                    <p class="caso-etiqueta">Caso de estudio</p>
+
+                    <h2 class="titulo-seccion">Alke Wallet</h2>
+
+                    <p class="subtitulo-seccion">De una interfaz web a una billetera digital funcional.</p>
+                </div>
+
+
+                <div class="row g-4 mt-4">
+
+                    <!-- Descripción -->
+                    <div class="col-lg-6">
+                        <div class="caso-card h-100">
+
+                            <h3>
+                                <i class="bi bi-info-circle"></i>
+                                Descripción
+                            </h3>
+
+                            <p>
+                                Alke Wallet es una aplicación web de billetera digital desarrollada como proyecto del
+                                Módulo 2 del curso. Su objetivo fue aplicar los fundamentos del desarrollo Front End
+                                mediante la creación de una interfaz que permitiera simular operaciones habituales de
+                                una billetera digital. El proyecto cuenta con diferentes vistas para registro e inicio
+                                de sesión, menú principal, depósitos, transferencias a nuevos destinatarios o contactos
+                                de una agenda y visualización de movimientos.
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                    <!-- Desafío -->
+                    <div class="col-lg-6">
+                        <div class="caso-card h-100">
+
+                            <h3>
+                                <i class="bi bi-lightning-charge"></i>
+                                Desafío
+                            </h3>
+
+                            <p>
+                                El principal desafío fue pasar de desarrollar interfaces principalmente visuales a
+                                construir una aplicación con comportamiento dinámico, incorporando JavaScript para
+                                controlar las acciones realizadas por el usuario y mantener una lógica coherente entre
+                                las distintas operaciones de la billetera. Esto implicó trabajar no solamente en la
+                                presentación de la aplicación, sino también en aspectos como validar los datos
+                                ingresados, actualizar el saldo después de un depósito o transferencia, impedir
+                                operaciones con montos no válidos y registrar los movimientos realizados.
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                    <!-- Solución -->
+                    <div class="col-lg-6">
+                        <div class="caso-card h-100">
+
+                            <h3>
+                                <i class="bi bi-check-circle"></i>
+                                Solución propuesta
+                            </h3>
+
+                            <p>
+                                La solución consistió en desarrollar la aplicación mediante distintas vistas conectadas
+                                entre sí y utilizar JavaScript para implementar la lógica de sus funcionalidades. Se
+                                incorporaron validaciones para controlar las operaciones realizadas por el usuario, como
+                                impedir transferencias superiores al saldo disponible y evitar montos negativos. También
+                                se implementó el registro de los movimientos para que las transacciones realizadas
+                                pudieran posteriormente ser consultadas. La interfaz se desarrolló de manera responsive
+                                utilizando Bootstrap y estilos CSS personalizados, manteniendo una apariencia coherente
+                                entre las diferentes vistas.
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                    <!-- Herramientas Técnicas y Tecnologías -->
+                    <div class="col-lg-6">
+                        <div class="caso-card caso-card-tecnologias h-100">
+
+                            <h3>
+                                <i class="bi bi-code-square"></i>
+                                Herramientas Técnicas / Tecnologías
+                            </h3>
+
+                            <div class="caso-card-centro">
+                                <div class="tecnologias">
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                    <span>Bootstrap</span>
+                                    <span>JavaScript</span>
+                                    <span>DOM</span>
+                                    <span>LocalStorage</span>
+                                </div>
+
+                                <a href="https://github.com/Lore-FS/Proyecto-M-dulo-2-Alke-Wallet" target="_blank"
+                                    rel="noopener noreferrer" class="btn btn-proyecto mt-4">
+                                    <i class="bi bi-github"></i>
+                                    Ver repositorio
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!-- Principales Aprendizajes -->
+                    <div class="col-lg-6">
+                        <div class="caso-card h-100">
+
+                            <h3>
+                                <i class="bi bi-book"></i>
+                                Principales aprendizajes
+                            </h3>
+
+                            <p>
+                                El desarrollo de Alke Wallet me permitió comprender cómo integrar HTML, CSS y JavaScript
+                                dentro de una aplicación completa. Uno de los principales aprendizajes fue utilizar
+                                JavaScript no solamente para modificar elementos visuales, sino también para implementar
+                                lógica y validaciones relacionadas con las acciones realizadas por el usuario. También
+                                pude reforzar el manejo de eventos y del DOM, la validación de formularios, la
+                                organización de archivos y la importancia de comprobar diferentes situaciones antes de
+                                permitir una operación.
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                    <!-- Resultados/Métricas de impacto -->
+                    <div class="col-lg-6">
+                        <div class="caso-card h-100">
+
+                            <h3>
+                                <i class="bi bi-graph-up-arrow"></i>
+                                Resultados
+                            </h3>
+
+                            <p>
+                                En este proyecto no se pueden utilizar métricas de usuarios reales, debido a que
+                                corresponde
+                                a una aplicación desarrollada en un contexto académico. Por este motivo, los resultados
+                                se pueden medir mediante el cumplimiento funcional de los requerimientos evaluados. La
+                                retroalimentación recibida de la evaluación destacó que se comprobó el funcionamiento
+                                correcto de las principales funcionalidades: validación de usuario y contraseña,
+                                registro de depósitos con actualización del saldo, realización de transferencias,
+                                prevención de transferencias superiores al saldo disponible, validación de montos
+                                negativos y visualización de las transacciones realizadas. Además, la evaluación también
+                                destacó positivamente la legibilidad del código, la presentación de la interfaz y el
+                                funcionamiento general del proyecto. El tiempo de resolución fue de alrededor de 4
+                                semanas, considerando que se empezó con un
+                                trabajo paulatino, implementando los conocimientos obtenidos en cada lección del módulo
+                                de manera escalable.
+                            </p>
+
+                            <p class="resultado-destacado">Calificación obtenida: <strong>6,3</strong></p>
+
+                        </div>
+                    </div>
+
+                    <!-- Habilidades técnicas -->
+                    <div class="col-lg-6">
+                        <div class="caso-card h-100">
+
+                            <h3>
+                                <i class="bi bi-book"></i>
+                                Habilidades técnicas aplicadas
+                            </h3>
+
+                            <p>
+                                Durante el proyecto apliqué desarrollo de interfaces con HTML y CSS, diseño responsive
+                                con CSS y Bootstrap, programación con JavaScript, manipulación del DOM, manejo de
+                                eventos, validación de datos, almacenamiento local y resolución de problemas
+                                relacionados con la lógica de una aplicación.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <!-- Justificación de elección -->
+                    <div class="col-lg-6">
+                        <div class="caso-card h-100">
+
+                            <h3>
+                                <i class="bi-card-checklist"></i>
+                                ¿Por qué seleccioné este proyecto?
+                            </h3>
+
+                            <p>
+                                Seleccioné Alke Wallet porque representa una etapa importante en mi aprendizaje como
+                                desarrolladora Front End. Fue el primer proyecto en el que tuve que integrar diferentes
+                                conocimientos para construir una aplicación completa y funcional, pasando de la creación
+                                de interfaces a implementar también lógica, validaciones e interacción con el usuario.
+                                Además, el resultado de la evaluación fue positivo tanto en la presentación y
+                                legibilidad del código como en las funcionalidades principales implementadas, lo que
+                                convierte a este proyecto en una evidencia concreta de los conocimientos adquiridos
+                                durante mi formación.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- CONTACTO -->
+        <section id="contacto" class="seccion">
+            <div class="container">
+
+                <div class="row justify-content-center text-center">
+
+                    <div class="col-lg-8">
+
+                        <h2 class="titulo-seccion">Contacto</h2>
+
+                        <p class="subtitulo-seccion"> ¿Te interesa conocer más sobre mi trabajo?<br>Puedes revisar mi CV
+                            o contactarme a
+                            través de los siguientes medios:</p>
+
+                        <div class="contacto-enlaces d-flex justify-content-center flex-wrap gap-3 mt-4">
+
+                            <a href="https://github.com/Lore-FS" target="_blank" rel="noopener noreferrer"
+                                class="contacto-link">
+                                <i class="bi bi-github"></i>
+                                GitHub
+                            </a>
+
+                            <!-- <a href="#" class="contacto-link">
+                                <i class="bi bi-linkedin"></i>
+                                LinkedIn
+                            </a> -->
+
+                            <a href="https://wa.me/+56989009537?text=Hola Loreto,%20acabo%20de%20ver%20tu%20portafolio%20y%20quiero%20saber%20mas%20de%20tus%20servicios"
+                                target="_blank" rel="noopener noreferrer" class="contacto-link">
+                                <i class="bi-whatsapp"></i>
+                                Whatsapp
+                            </a>
+
+                            <a href="mailto:fritz.loreto@gmail.com" class="contacto-link">
+                                <i class="bi bi-envelope"></i>
+                                Email
+                            </a>
+
+                            <a href="./assets/cv/CV-Loreto.pdf" target="_blank" class="contacto-link">
+                                <i class="bi bi-file-earmark-person"></i>
+                                Ver CV
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container text-center">
+
+            <p class="mb-1">
+                &copy; 2026. Portafolio Front End Trainee
+            </p>
+
+            <p>Loreto Fritz</p>
+
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <!-- JS propio -->
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
