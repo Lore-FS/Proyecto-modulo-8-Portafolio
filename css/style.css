@@ -151,6 +151,13 @@ img {
   height: 235px;
 }
 
+.hero-ilustracion-movil {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  object-fit: contain;
+}
+
 
 /* BOTONES PRINCIPALES */
 
@@ -766,6 +773,10 @@ img {
   .hero-foto-movil .hero-foto {
     width: 150px;
     height: 200px;
+  }
+
+  .hero-ilustracion-movil {
+    max-width: 280px;
   }
 
   .contacto-enlaces {
